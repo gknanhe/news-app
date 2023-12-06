@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #17182e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cardBg {
+  background: rgb(4, 19, 70);
+  background: linear-gradient(
+    225deg,
+    rgba(4, 19, 70, 1) 0%,
+    rgba(21, 17, 43, 1) 100%
+  );
+}
+
+.articleUrl {
+  --chakra-colors-chakraplaceholder-color: var(--chakra-colors-gray-500);
+  color-scheme: light;
+  font-feature-settings: "kern";
+
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  border-color: var(--chakra-colors-chakra-border-color);
+  margin-top: var(--chakra-space-6);
+  font-size: var(--chakra-fontSizes-sm);
+  font-weight: var(--chakra-fontWeights-semibold);
+  display: inline-block;
+  background: var(--chakra-colors-black);
+  color: var(--chakra-colors-white);
+  padding-inline-start: var(--chakra-space-4);
+  padding-inline-end: var(--chakra-space-4);
+  padding-top: var(--chakra-space-2);
+  padding-bottom: var(--chakra-space-2);
+  border-radius: var(--chakra-radii-lg);
+}
